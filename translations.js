@@ -20,11 +20,17 @@ const translations = {
 
         // About Section
         about_title: "Hakkımda",
-        about_lead: "Kadın sağlığı alanında uzman hekimlik deneyimi ile hastalarıma en güncel ve güvenilir tedavi seçeneklerini sunuyorum.",
-        about_text: "Alanya'da modern tıbbi ekipman ve deneyimli kadromuzla, kadın hastalıkları tedavisi, doğum hizmetleri, gebelik takibi ve jinekolojik estetik işlemler konusunda hizmet vermekteyim.",
+        about_intro: "Uludağ Üniversitesi Tıp Fakültesi mezunudur. Daha sonra Akdeniz Üniversitesi ABD'da kadın hastalıkları eğitimi almıştır. Uzman doktor olarak devlet hastanesinde ve çeşitli özel hastanelerde 30 yılı aşkın hizmet vermiştir. Ulusal ve uluslararası birçok bilimsel toplantıya katılmıştır. 4 yıldır kendi özel kliniğinde hizmet vermektedir.",
+
+        // Featured Services
+        featured1_title: "Jinekolojik Problemler",
+        featured2_title: "Normal Doğum Ve Sezeryan",
+        featured3_title: "Genital Estetik",
+        featured4_title: "Gebelik Takibi",
+        featured5_title: "Jinekolojik Kanser Tarama",
 
         // Main Services
-        services_title: "Ana Hizmetler",
+        services_title: "Hizmetler",
         service1_title: "Kadın Hastalıkları Tedavisi",
         service1_desc: "Jinekolojik sorunların tanı ve tedavisi, düzenli kontroller ve kapsamlı muayene hizmetleri.",
         service2_title: "Normal Doğum ve Sezaryen",
@@ -51,8 +57,16 @@ const translations = {
         topic9: "Lazer ile Servikal Yırtık Tedavisi",
         topic10: "HSG (Rahim Filmi) Görüntüleme",
 
+        // Tests
+        tests_title: "Testler",
+        test1: "Kan testleri",
+        test2: "Hormon testleri",
+        test3: "Mikrobiyolojik testler (genital, vajinal enfeksiyon testleri)",
+        test4: "Patolojik testler (pap smear testi, endometrial biyopsi)",
+        test5: "HPV testi",
+
         // Clinic Info
-        clinic_title: "Klinik Bilgileri",
+        clinic_title: "Klinik",
         clinic1_title: "Anlaşmalı Hastaneler",
         clinic1_desc: "Doğum ve ameliyatlar için anlaşmalı hastanelerimizde hizmet veriyoruz.",
         clinic2_title: "Esnek Çalışma Saatleri",
@@ -89,11 +103,17 @@ const translations = {
 
         // About Section
         about_title: "About Me",
-        about_lead: "With my expertise in women's health, I provide my patients with the most current and reliable treatment options.",
-        about_text: "In Alanya, with modern medical equipment and our experienced team, we provide services in gynecological treatment, birth services, pregnancy monitoring and gynecological aesthetic procedures.",
+        about_intro: "He graduated from Uludağ University Faculty of Medicine. He then received gynecology training at Akdeniz University Department. As a specialist doctor, he has served in state hospitals and various private hospitals for over 30 years. He has participated in many national and international scientific meetings. He has been serving in his own private clinic for 4 years.",
+
+        // Featured Services
+        featured1_title: "Gynecological Problems",
+        featured2_title: "Natural Birth And Cesarean",
+        featured3_title: "Genital Aesthetics",
+        featured4_title: "Pregnancy Monitoring",
+        featured5_title: "Gynecological Cancer Screening",
 
         // Main Services
-        services_title: "Main Services",
+        services_title: "Services",
         service1_title: "Gynecological Treatment",
         service1_desc: "Diagnosis and treatment of gynecological problems, regular check-ups and comprehensive examination services.",
         service2_title: "Natural Birth & Cesarean",
@@ -120,8 +140,16 @@ const translations = {
         topic9: "Cervical Laceration Treatment with Laser",
         topic10: "HSG (Hysterosalpingography) Imaging",
 
+        // Tests
+        tests_title: "Tests",
+        test1: "Blood tests",
+        test2: "Hormone tests",
+        test3: "Microbiological tests (genital, vaginal infection tests)",
+        test4: "Pathological tests (pap smear test, endometrial biopsy)",
+        test5: "HPV test",
+
         // Clinic Info
-        clinic_title: "Clinic Information",
+        clinic_title: "Clinic",
         clinic1_title: "Partner Hospitals",
         clinic1_desc: "We provide services at our partner hospitals for births and surgeries.",
         clinic2_title: "Flexible Working Hours",
@@ -158,11 +186,17 @@ const translations = {
 
         // About Section
         about_title: "О враче",
-        about_lead: "Благодаря своему опыту в области женского здоровья, я предлагаю своим пациентам самые современные и надежные варианты лечения.",
-        about_text: "В Алании с современным медицинским оборудованием и нашей опытной командой мы предоставляем услуги по гинекологическому лечению, родовспоможению, мониторингу беременности и гинекологическим эстетическим процедурам.",
+        about_intro: "Окончил медицинский факультет Университета Улудаг. Затем прошел обучение по гинекологии на кафедре Средиземноморского университета. Как врач-специалист, он работал в государственных больницах и различных частных больницах более 30 лет. Он принимал участие во многих национальных и международных научных конференциях. Уже 4 года работает в собственной частной клинике.",
+
+        // Featured Services
+        featured1_title: "Гинекологические проблемы",
+        featured2_title: "Естественные роды и кесарево сечение",
+        featured3_title: "Генитальная эстетика",
+        featured4_title: "Мониторинг беременности",
+        featured5_title: "Скрининг гинекологического рака",
 
         // Main Services
-        services_title: "Основные услуги",
+        services_title: "Услуги",
         service1_title: "Гинекологическое лечение",
         service1_desc: "Диагностика и лечение гинекологических проблем, регулярные осмотры и комплексное обследование.",
         service2_title: "Естественные роды и Кесарево сечение",
@@ -189,8 +223,16 @@ const translations = {
         topic9: "Лечение разрывов шейки матки лазером",
         topic10: "ГСГ (Гистеросальпингография)",
 
+        // Tests
+        tests_title: "Тесты",
+        test1: "Анализы крови",
+        test2: "Гормональные тесты",
+        test3: "Микробиологические тесты (генитальные, вагинальные инфекционные тесты)",
+        test4: "Патологические тесты (мазок Папаниколау, эндометриальная биопсия)",
+        test5: "Тест на ВПЧ",
+
         // Clinic Info
-        clinic_title: "Информация о клинике",
+        clinic_title: "клинике",
         clinic1_title: "Партнерские больницы",
         clinic1_desc: "Мы предоставляем услуги в наших партнерских больницах для родов и операций.",
         clinic2_title: "Гибкие часы работы",

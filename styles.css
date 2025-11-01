@@ -153,6 +153,28 @@ html {
     align-items: center;
 }
 
+.about-intro-hero {
+    background: white;
+    border-radius: 12px;
+    padding: 20px 24px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-intro-hero h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-bottom: 12px;
+}
+
+.about-intro-hero p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+    color: #374151;
+    margin: 0;
+    text-align: justify;
+}
+
 .hero-image-placeholder {
     background: rgba(255, 255, 255, 0.9);
     border-radius: 20px;
@@ -270,6 +292,21 @@ html {
     color: white;
 }
 
+.service-icon-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.service-icon-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 .service-card h3 {
     font-size: 1.4rem;
     font-weight: 700;
@@ -352,146 +389,151 @@ html {
     flex-shrink: 0;
 }
 
-/* About Section */
-.about-content {
+/* About Section - Minimal LinkedIn Style */
+#about {
+    padding: 60px 0 !important;
+}
+
+/* Featured Services Section */
+.featured-service-card {
     background: white;
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    height: 100%;
+    border: 1px solid #e5e7eb;
 }
 
-.about-content p {
-    font-size: 1.05rem;
-    line-height: 1.6;
-    color: #444;
-    margin-bottom: 1rem;
+.featured-service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
-.about-content .lead {
-    font-size: 1.2rem;
-    color: var(--primary-color);
-    font-weight: 500;
+.featured-service-image {
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
 }
 
-/* Career Timeline */
-.timeline {
-    position: relative;
+.featured-service-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.featured-service-card:hover .featured-service-image img {
+    transform: scale(1.05);
+}
+
+.featured-service-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.featured-service-content h4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: var(--dark-color);
+    margin: 0;
+    line-height: 1.4;
+}
+
+.about-intro {
+    background: white;
+    border-radius: 12px;
+    padding: 24px 32px;
+    margin-bottom: 24px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.about-intro p {
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: #374151;
+    margin: 0;
+    text-align: justify;
+}
+
+.minimal-timeline {
+    background: white;
+    border-radius: 12px;
+    padding: 32px 40px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.minimal-timeline-item {
     padding: 20px 0;
-    margin: 20px 0;
+    border-bottom: 1px solid #e5e7eb;
+    position: relative;
+    padding-left: 24px;
 }
 
-.timeline::before {
+.minimal-timeline-item::before {
     content: '';
     position: absolute;
-    left: 30px;
-    top: 0;
-    bottom: 0;
-    width: 3px;
-    background: linear-gradient(180deg, var(--primary-color) 0%, var(--accent-color) 100%);
+    left: 0;
+    top: 28px;
+    width: 8px;
+    height: 8px;
+    background: var(--primary-color);
+    border-radius: 50%;
 }
 
-.timeline-item {
-    position: relative;
-    padding-left: 80px;
-    padding-bottom: 30px;
-    display: flex;
-    align-items: flex-start;
+.minimal-timeline-item:first-child {
+    padding-top: 0;
 }
 
-.timeline-item:last-child {
+.minimal-timeline-item:last-child {
+    border-bottom: none;
     padding-bottom: 0;
 }
 
-.timeline-marker {
-    position: absolute;
-    left: 10px;
-    width: 45px;
-    height: 45px;
-    background: linear-gradient(135deg, var(--primary-color) 0%, #0b5ed7 100%);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 4px 12px rgba(13, 110, 253, 0.3);
-    z-index: 2;
-}
-
-.timeline-marker i {
-    color: white;
-    font-size: 1.2rem;
-}
-
-.timeline-content {
-    background: #f8f9fa;
-    padding: 25px;
-    border-radius: 12px;
-    border-left: 4px solid var(--primary-color);
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
-    transition: all 0.3s ease;
-    flex: 1;
-}
-
-.timeline-content:hover {
-    transform: translateX(5px);
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.12);
-    border-left-color: var(--accent-color);
-}
-
-.timeline-date {
-    font-size: 0.9rem;
-    color: var(--primary-color);
+.timeline-position h5 {
+    font-size: 1.05rem;
     font-weight: 600;
-    margin-bottom: 8px;
-    display: inline-block;
-    background: rgba(13, 110, 253, 0.1);
-    padding: 4px 12px;
-    border-radius: 20px;
+    color: #1f2937;
+    margin: 0 0 6px 0;
+    line-height: 1.4;
 }
 
-.timeline-content h5 {
-    font-size: 1.2rem;
-    font-weight: 700;
-    color: var(--dark-color);
-    margin-bottom: 8px;
-}
-
-.timeline-content .institution {
-    font-size: 1rem;
-    color: var(--primary-color);
-    font-weight: 600;
-    margin-bottom: 10px;
-}
-
-.timeline-content .description {
+.timeline-company {
     font-size: 0.95rem;
-    color: #666;
-    line-height: 1.6;
-    margin: 0;
-}
-
-.philosophy-box {
-    background: linear-gradient(135deg, #f5f7fa 0%, #e8f0fe 100%);
-    padding: 25px;
-    border-radius: 12px;
-    border-left: 4px solid var(--primary-color);
-}
-
-.philosophy-box h4 {
-    color: var(--primary-color);
-    font-weight: 600;
-}
-
-.philosophy-box p {
-    margin: 0;
-    font-style: italic;
-}
-
-.highlight-text {
-    background: linear-gradient(135deg, #fff3cd 0%, #ffe5a0 100%);
-    padding: 20px;
-    border-radius: 10px;
-    border-left: 4px solid #ffc107;
+    color: #374151;
+    margin: 0 0 6px 0;
+    line-height: 1.5;
     font-weight: 500;
+}
+
+.timeline-period {
+    font-size: 0.875rem;
+    color: #6b7280;
+    margin: 0 0 4px 0;
+    line-height: 1.4;
+}
+
+.timeline-location {
+    font-size: 0.875rem;
+    color: #6b7280;
+    margin: 0;
+    line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+    .minimal-timeline {
+        padding: 24px 20px;
+    }
+
+    .minimal-timeline-item {
+        padding-left: 20px;
+    }
+
+    .minimal-timeline-item::before {
+        width: 6px;
+        height: 6px;
+        top: 24px;
+    }
 }
 
 /* Gallery Section */
