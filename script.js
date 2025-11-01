@@ -21,7 +21,13 @@ document.addEventListener('DOMContentLoaded', function() {
                 } else if (element.tagName === 'TITLE') {
                     element.textContent = translations[lang][key];
                 } else {
-                    element.textContent = translations[lang][key];
+                    // Convert \n to <br> for HTML display
+                    const text = translations[lang][key];
+                    if (text.includes('\n')) {
+                        element.innerHTML = text.replace(/\n/g, '<br>');
+                    } else {
+                        element.textContent = text;
+                    }
                 }
             }
         });

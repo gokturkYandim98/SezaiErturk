@@ -66,8 +66,7 @@ const translations = {
         contact_location: "Şekerhane Mah. Şevket Tokuş Cad.\nGörgülü Apt.No: 8/4\nAlanya/ANTALYA\nKlinik Tel. 0 537 440 17 27",
 
         // Footer
-        footer_text: "© 2025 Op. Dr. Sezai Ertürk - Kadın Hastalıkları ve Doğum Uzmanı. Tüm hakları saklıdır.",
-        footer_location: "Alanya, Antalya"
+        footer_text: "Op. Dr. Sezai Ertürk\nKadın Hastalıkları ve Doğum Uzmanı\nTüm hakları saklıdır\n© 2025"
     },
 
     en: {
@@ -133,11 +132,10 @@ const translations = {
         // Contact
         contact_title: "Contact",
         contact_desc: "You can contact us for appointments or information.",
-        contact_location: "Alanya, Antalya",
+        contact_location: "Şekerhane Mah. Şevket Tokuş Cad.\nGörgülü Apt.No: 8/4\nAlanya/ANTALYA\nKlinik Tel. 0 537 440 17 27",
 
         // Footer
-        footer_text: "© 2025 Op. Dr. Sezai Ertürk - Gynecologist & Obstetrician. All rights reserved.",
-        footer_location: "Alanya, Antalya"
+        footer_text: "Op. Dr. Sezai Ertürk\nGynecologist & Obstetrician\nAll rights reserved\n© 2025"
     },
 
     ru: {
@@ -203,10 +201,9 @@ const translations = {
         // Contact
         contact_title: "Контакты",
         contact_desc: "Вы можете связаться с нами для записи на прием или получения информации.",
-        contact_location: "Алания, Анталия",
+        contact_location: "Şekerhane Mah. Şevket Tokuş Cad.\nGörgülü Apt.No: 8/4\nAlanya/ANTALYA\nKlinik Tel. 0 537 440 17 27",
 
         // Footer
-        footer_text: "© 2025 Оп. Др. Сезай Эртюрк - Гинеколог и Акушер. Все права защищены.",
-        footer_location: "Алания, Анталия"
+        footer_text: "Оп. Др. Сезай Эртюрк\nГинеколог и Акушер\nВсе права защищены\n© 2025"
     }
 };
