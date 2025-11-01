@@ -247,5 +247,88 @@ const translations = {
 
         // Footer
         footer_text: "Оп. Др. Сезай Эртюрк\nГинеколог и Акушер\nВсе права защищены\n© 2025"
+    },
+
+    de: {
+        // Meta & Navigation
+        page_title: "Op. Dr. Sezai Ertürk - Frauenarzt | Alanya",
+        page_description: "Op. Dr. Sezai Ertürk - Frauengesundheit, Gynäkologie, Geburtshilfe, genitale Ästhetik und Schwangerschaftsüberwachung in Alanya",
+        nav_home: "Startseite",
+        nav_about: "Über mich",
+        nav_services: "Behandlungen",
+        nav_topics: "Themen",
+        nav_clinic: "Klinik",
+        nav_contact: "Kontakt",
+
+        // Hero Section
+        hero_subtitle: "Frauenarzt und Geburtshelfer",
+        hero_description: "Zuverlässige und professionelle Frauengesundheitsdienste in Alanya. Natürliche Geburt, Kaiserschnitt, Schwangerschaftsüberwachung, genitale Ästhetik und gynäkologische Behandlungen.",
+        btn_appointment: "Termin vereinbaren",
+        btn_more_info: "Mehr Informationen",
+        russian_translator: "Russischer Übersetzer in der Klinik verfügbar",
+
+        // About Section
+        about_title: "Über mich",
+        about_intro: "Er schloss sein Studium an der Medizinischen Fakultät der Uludağ-Universität ab. Anschließend erhielt er seine gynäkologische Ausbildung an der Abteilung der Akdeniz-Universität. Als Facharzt hat er über 30 Jahre in staatlichen Krankenhäusern und verschiedenen Privatkliniken gearbeitet. Er hat an vielen nationalen und internationalen wissenschaftlichen Konferenzen teilgenommen. Seit 4 Jahren führt er seine eigene Privatklinik.",
+
+        // Featured Services
+        featured1_title: "Gynäkologische Probleme",
+        featured2_title: "Natürliche Geburt und Kaiserschnitt",
+        featured3_title: "Genitale Ästhetik",
+        featured4_title: "Schwangerschaftsüberwachung",
+        featured5_title: "Gynäkologisches Krebs-Screening",
+
+        // Main Services
+        services_title: "Dienstleistungen",
+        service1_title: "Gynäkologische Behandlung",
+        service1_desc: "Diagnose und Behandlung gynäkologischer Probleme, regelmäßige Untersuchungen und umfassende Untersuchungsdienste.",
+        service2_title: "Natürliche Geburt & Kaiserschnitt",
+        service2_desc: "Wir bieten sichere Geburtsdienste mit unserem erfahrenen Team in Partnerkrankenhäusern.",
+        service3_title: "Genitale Ästhetik",
+        service3_desc: "Genitale ästhetische Eingriffe mit fraktioniertem Laser, Optionen für lokale oder allgemeine Anästhesie.",
+        service4_title: "Schwangerschaftsüberwachung",
+        service4_desc: "Umfassende Schwangerschaftsüberwachung, Ultraschalluntersuchungen und Screening-Tests.",
+        service5_title: "Gynäkologisches Krebs-Screening",
+        service5_desc: "Regelmäßige Screening-Programme und Biopsie-Verfahren zur Früherkennung.",
+        service6_title: "NST & Ultraschall",
+        service6_desc: "Fetale Überwachung (NST), abdominale und vaginale Ultraschalluntersuchungen.",
+
+        // Detailed Services
+        topics_title: "Diagnose- und Behandlungsdienste",
+        topic1: "Doppel-, Dreifach-, Vierfach-Test-Screenings",
+        topic2: "NIPT (Nicht-invasiver Pränataltest)",
+        topic3: "Abdominale Ultraschalluntersuchung",
+        topic4: "Vaginale Ultraschalluntersuchung",
+        topic5: "Endometriale Biopsie",
+        topic6: "Zervikale Biopsie",
+        topic7: "NST (Fetales Überwachungsgerät)",
+        topic8: "Fraktionierte Laser-Genitalästhetik",
+        topic9: "Behandlung von Gebärmutterhalsrissen mit Laser",
+        topic10: "HSG (Hysterosalpingographie)",
+
+        // Tests
+        tests_title: "Tests",
+        test1: "Bluttests",
+        test2: "Hormontests",
+        test3: "Mikrobiologische Tests (genitale, vaginale Infektionstests)",
+        test4: "Pathologische Tests (Pap-Abstrich, endometriale Biopsie)",
+        test5: "HPV-Test",
+
+        // Clinic Info
+        clinic_title: "Klinik",
+        clinic1_title: "Partnerkrankenhäuser",
+        clinic1_desc: "Wir bieten Dienstleistungen in unseren Partnerkrankenhäusern für Geburten und Operationen an.",
+        clinic2_title: "Flexible Arbeitszeiten",
+        clinic2_desc: "Wir bieten unseren Patienten bequeme Terminzeiten an.",
+        clinic3_title: "Russischer Übersetzer",
+        clinic3_desc: "In unserer Klinik steht ein russischer Übersetzungsdienst zur Verfügung.",
+
+        // Contact
+        contact_title: "Kontakt",
+        contact_desc: "Sie können uns für Termine oder Informationen kontaktieren.",
+        contact_location: "Şekerhane Mah. Şevket Tokuş Cad.\nGörgülü Apt.No: 8/4\nAlanya/ANTALYA\nKlinik Tel. 0 537 440 17 27",
+
+        // Footer
+        footer_text: "Op. Dr. Sezai Ertürk\nFrauenarzt und Geburtshelfer\nAlle Rechte vorbehalten\n© 2025"
     }
 };

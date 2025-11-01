@@ -204,5 +204,22 @@ document.addEventListener('DOMContentLoaded', function() {
         }, false);
     });
 
+    // Image Modal Handler for Service Images
+    const imageModal = document.getElementById('imageModal');
+    if (imageModal) {
+        imageModal.addEventListener('show.bs.modal', function (event) {
+            const button = event.relatedTarget;
+            const imageSrc = button.getAttribute('data-image');
+            const imageTitle = button.getAttribute('data-title');
+
+            const modalImage = document.getElementById('modalImage');
+            const modalTitle = document.getElementById('imageModalLabel');
+
+            modalImage.src = imageSrc;
+            modalImage.alt = imageTitle;
+            modalTitle.textContent = imageTitle;
+        });
+    }
+
     console.log('Dr. Sezai Ertürk Website Loaded Successfully');
 });
