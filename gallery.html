@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title data-translate="gallery_page_title">Klinik Galeri - Op. Dr. Sezai Ertürk</title>
+    <meta name="description" data-translate="gallery_page_description"
+        content="Op. Dr. Sezai Ertürk Klinik Galeri - Alanya'daki kliniğimizin fotoğrafları">
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <span class="brand-text bi bi-gender-female">Op. Dr. Sezai Ertürk</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#home" data-translate="nav_home">Anasayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#about" data-translate="nav_about">Hakkımda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#services" data-translate="nav_services">Tedaviler</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#topics" data-translate="nav_topics">Konular</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="gallery.html" data-translate="nav_clinic">Klinik</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#contact" data-translate="nav_contact">İletişim</a>
+                    </li>
+                </ul>
+                <div class="language-switcher d-flex ms-3 gap-1">
+                    <button class="lang-btn" data-lang="tr" title="Türkçe">
+                        <img src="https://flagcdn.com/w40/tr.png" alt="TR" class="flag-icon">
+                    </button>
+                    <button class="lang-btn" data-lang="en" title="English">
+                        <img src="https://flagcdn.com/w40/gb.png" alt="EN" class="flag-icon">
+                    </button>
+                    <button class="lang-btn" data-lang="ru" title="Русский">
+                        <img src="https://flagcdn.com/w40/ru.png" alt="RU" class="flag-icon">
+                    </button>
+                    <button class="lang-btn" data-lang="de" title="Deutsch">
+                        <img src="https://flagcdn.com/w40/de.png" alt="DE" class="flag-icon">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Gallery Hero Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h1 class="display-4 fw-bold mb-3" data-translate="gallery_title">Klinik Galeri</h1>
+                <p class="lead text-muted" data-translate="gallery_subtitle">Kliniğimizin çeşitli alanlarından görüntüler</p>
+                <a href="index.html" class="btn btn-outline-secondary mt-3">
+                    <i class="bi bi-arrow-left me-2"></i><span data-translate="back_to_home">Ana Sayfaya Dön</span>
+                </a>
+            </div>
+
+            <!-- Gallery Grid -->
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4">
+                    <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal"
+                        data-image="resources/klinik/klinik_1.jpeg" data-title="Klinik Görünüm 1">
+                        <img src="resources/klinik/klinik_1.jpeg" alt="Klinik Görünüm 1" class="img-fluid">
+                        <div class="gallery-overlay">
+                            <i class="bi bi-zoom-in"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal"
+                        data-image="resources/klinik/klinik_2.jpeg" data-title="Klinik Görünüm 2">
+                        <img src="resources/klinik/klinik_2.jpeg" alt="Klinik Görünüm 2" class="img-fluid">
+                        <div class="gallery-overlay">
+                            <i class="bi bi-zoom-in"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal"
+                        data-image="resources/klinik/klinik_3.jpeg" data-title="Klinik Görünüm 3">
+                        <img src="resources/klinik/klinik_3.jpeg" alt="Klinik Görünüm 3" class="img-fluid">
+                        <div class="gallery-overlay">
+                            <i class="bi bi-zoom-in"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal"
+                        data-image="resources/klinik/klinik_4.jpeg" data-title="Klinik Görünüm 4">
+                        <img src="resources/klinik/klinik_4.jpeg" alt="Klinik Görünüm 4" class="img-fluid">
+                        <div class="gallery-overlay">
+                            <i class="bi bi-zoom-in"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal"
+                        data-image="resources/klinik/klinik_5.jpeg" data-title="Klinik Görünüm 5">
+                        <img src="resources/klinik/klinik_5.jpeg" alt="Klinik Görünüm 5" class="img-fluid">
+                        <div class="gallery-overlay">
+                            <i class="bi bi-zoom-in"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal"
+                        data-image="resources/klinik/klinik_6.jpeg" data-title="Klinik Görünüm 6">
+                        <img src="resources/klinik/klinik_6.jpeg" alt="Klinik Görünüm 6" class="img-fluid">
+                        <div class="gallery-overlay">
+                            <i class="bi bi-zoom-in"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal"
+                        data-image="resources/klinik/klinik_7.jpg" data-title="Klinik Görünüm 7">
+                        <img src="resources/klinik/klinik_7.jpg" alt="Klinik Görünüm 7" class="img-fluid">
+                        <div class="gallery-overlay">
+                            <i class="bi bi-zoom-in"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal"
+                        data-image="resources/klinik/klinik_8.jpg" data-title="Klinik Görünüm 8">
+                        <img src="resources/klinik/klinik_8.jpg" alt="Klinik Görünüm 8" class="img-fluid">
+                        <div class="gallery-overlay">
+                            <i class="bi bi-zoom-in"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal"
+                        data-image="resources/klinik/klinik_9.jpg" data-title="Klinik Görünüm 9">
+                        <img src="resources/klinik/klinik_9.jpg" alt="Klinik Görünüm 9" class="img-fluid">
+                        <div class="gallery-overlay">
+                            <i class="bi bi-zoom-in"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal"
+                        data-image="resources/klinik/klinik_10.jpg" data-title="Klinik Görünüm 10">
+                        <img src="resources/klinik/klinik_10.jpg" alt="Klinik Görünüm 10" class="img-fluid">
+                        <div class="gallery-overlay">
+                            <i class="bi bi-zoom-in"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal"
+                        data-image="resources/klinik/klinik_11.jpg" data-title="Klinik Görünüm 11">
+                        <img src="resources/klinik/klinik_11.jpg" alt="Klinik Görünüm 11" class="img-fluid">
+                        <div class="gallery-overlay">
+                            <i class="bi bi-zoom-in"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal"
+                        data-image="resources/klinik/klinik_12.jpg" data-title="Klinik Görünüm 12">
+                        <img src="resources/klinik/klinik_12.jpg" alt="Klinik Görünüm 12" class="img-fluid">
+                        <div class="gallery-overlay">
+                            <i class="bi bi-zoom-in"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="gallery-item" data-bs-toggle="modal" data-bs-target="#imageModal"
+                        data-image="resources/klinik/klinik_13.jpg" data-title="Klinik Görünüm 13">
+                        <img src="resources/klinik/klinik_13.jpg" alt="Klinik Görünüm 13" class="img-fluid">
+                        <div class="gallery-overlay">
+                            <i class="bi bi-zoom-in"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Image Modal -->
+    <div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header border-0 p-2">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center p-0">
+                    <img id="modalImage" src="" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4 mt-5">
+        <div class="container text-center">
+            <p class="mb-0 footer-text" data-translate="footer_text">Op. Dr. Sezai Ertürk<br>© 2025<br>Kadın
+                Hastalıkları ve Doğum Uzmanı<br>Tüm hakları saklıdır</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Translations -->
+    <script src="translations.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -73,11 +73,19 @@ const translations = {
         clinic2_desc: "Hastalarımıza uygun randevu saatleri sunuyoruz.",
         clinic3_title: "Rusça Tercüman",
         clinic3_desc: "Kliniğimizde Rusça tercüman hizmeti mevcuttur.",
+        view_gallery: "Klinik Galerisini Görüntüle",
 
         // Contact
         contact_title: "İletişim",
         contact_desc: "Randevu almak veya bilgi almak için bizimle iletişime geçebilirsiniz.",
         contact_location: "Şekerhane Mah. Şevket Tokuş Cad.\nGörgülü Apt.No: 8/4\nAlanya/ANTALYA\nKlinik Tel. 0 537 440 17 27",
+
+        // Gallery Page
+        gallery_page_title: "Klinik Galeri - Op. Dr. Sezai Ertürk",
+        gallery_page_description: "Op. Dr. Sezai Ertürk Klinik Galeri - Alanya'daki kliniğimizin fotoğrafları",
+        gallery_title: "Klinik Galeri",
+        gallery_subtitle: "Kliniğimizin çeşitli alanlarından görüntüler",
+        back_to_home: "Ana Sayfaya Dön",
 
         // Footer
         footer_text: "Op. Dr. Sezai Ertürk\nKadın Hastalıkları ve Doğum Uzmanı\nTüm hakları saklıdır\n© 2025"
@@ -156,11 +164,19 @@ const translations = {
         clinic2_desc: "We offer convenient appointment times for our patients.",
         clinic3_title: "Russian Translator",
         clinic3_desc: "Russian translator service is available at our clinic.",
+        view_gallery: "View Clinic Gallery",
 
         // Contact
         contact_title: "Contact",
         contact_desc: "You can contact us for appointments or information.",
         contact_location: "Şekerhane Mah. Şevket Tokuş Cad.\nGörgülü Apt.No: 8/4\nAlanya/ANTALYA\nKlinik Tel. 0 537 440 17 27",
+
+        // Gallery Page
+        gallery_page_title: "Clinic Gallery - Op. Dr. Sezai Ertürk",
+        gallery_page_description: "Op. Dr. Sezai Ertürk Clinic Gallery - Photos of our clinic in Alanya",
+        gallery_title: "Clinic Gallery",
+        gallery_subtitle: "Images from various areas of our clinic",
+        back_to_home: "Back to Home",
 
         // Footer
         footer_text: "Op. Dr. Sezai Ertürk\nGynecologist & Obstetrician\nAll rights reserved\n© 2025"
@@ -239,11 +255,19 @@ const translations = {
         clinic2_desc: "Мы предлагаем удобное время для приема наших пациентов.",
         clinic3_title: "Русский переводчик",
         clinic3_desc: "В нашей клинике доступна служба русского переводчика.",
+        view_gallery: "Посмотреть галерею клиники",
 
         // Contact
         contact_title: "Контакты",
         contact_desc: "Вы можете связаться с нами для записи на прием или получения информации.",
         contact_location: "Şekerhane Mah. Şevket Tokuş Cad.\nGörgülü Apt.No: 8/4\nAlanya/ANTALYA\nKlinik Tel. 0 537 440 17 27",
+
+        // Gallery Page
+        gallery_page_title: "Галерея клиники - Оп. Др. Сезай Эртюрк",
+        gallery_page_description: "Галерея клиники Оп. Др. Сезай Эртюрк - Фотографии нашей клиники в Алании",
+        gallery_title: "Галерея клиники",
+        gallery_subtitle: "Изображения из различных зон нашей клиники",
+        back_to_home: "Вернуться на главную",
 
         // Footer
         footer_text: "Оп. Др. Сезай Эртюрк\nГинеколог и Акушер\nВсе права защищены\n© 2025"
@@ -322,11 +346,19 @@ const translations = {
         clinic2_desc: "Wir bieten unseren Patienten bequeme Terminzeiten an.",
         clinic3_title: "Russischer Übersetzer",
         clinic3_desc: "In unserer Klinik steht ein russischer Übersetzungsdienst zur Verfügung.",
+        view_gallery: "Klinikgalerie ansehen",
 
         // Contact
         contact_title: "Kontakt",
         contact_desc: "Sie können uns für Termine oder Informationen kontaktieren.",
         contact_location: "Şekerhane Mah. Şevket Tokuş Cad.\nGörgülü Apt.No: 8/4\nAlanya/ANTALYA\nKlinik Tel. 0 537 440 17 27",
+
+        // Gallery Page
+        gallery_page_title: "Klinikgalerie - Op. Dr. Sezai Ertürk",
+        gallery_page_description: "Op. Dr. Sezai Ertürk Klinikgalerie - Fotos unserer Klinik in Alanya",
+        gallery_title: "Klinikgalerie",
+        gallery_subtitle: "Bilder aus verschiedenen Bereichen unserer Klinik",
+        back_to_home: "Zurück zur Startseite",
 
         // Footer
         footer_text: "Op. Dr. Sezai Ertürk\nFrauenarzt und Geburtshelfer\nAlle Rechte vorbehalten\n© 2025"
