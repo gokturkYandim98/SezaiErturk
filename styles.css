@@ -870,3 +870,136 @@ section {
         height: 250px;
     }
 }
+
+/* Topics Page Styles */
+.topics-sidebar {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 100px;
+}
+
+.topics-sidebar h5 {
+    color: var(--dark-color);
+    font-weight: 600;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.topic-item {
+    border: none;
+    border-left: 3px solid transparent;
+    transition: all 0.3s ease;
+    padding: 12px 15px;
+    margin-bottom: 5px;
+    border-radius: 0 8px 8px 0;
+}
+
+.topic-item:hover {
+    background-color: #f8f9fa;
+    border-left-color: #6BB5BC;
+    transform: translateX(5px);
+}
+
+.topic-item.active {
+    background-color: #6BB5BC;
+    color: white;
+    border-left-color: #5a9da3;
+}
+
+.topic-item.active:hover {
+    background-color: #5a9da3;
+}
+
+.topic-item i {
+    font-size: 1.1rem;
+}
+
+.topic-content {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    min-height: 500px;
+}
+
+.topic-detail {
+    display: none;
+}
+
+.topic-detail.active {
+    display: block;
+    animation: fadeIn 0.3s ease-in;
+}
+
+.topic-header {
+    border-bottom: 3px solid #6BB5BC;
+    padding-bottom: 15px;
+    margin-bottom: 25px;
+}
+
+.topic-header h2 {
+    color: var(--dark-color);
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.topic-body {
+    line-height: 1.8;
+    color: #495057;
+}
+
+.topic-body h3 {
+    color: var(--dark-color);
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.topic-body h4 {
+    color: #495057;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 12px;
+}
+
+.topic-body ul {
+    margin-left: 20px;
+}
+
+.topic-body ul li {
+    margin-bottom: 10px;
+}
+
+.topic-body .alert {
+    margin-top: 20px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media (max-width: 768px) {
+    .topics-sidebar {
+        position: relative;
+        top: 0;
+        margin-bottom: 20px;
+    }
+
+    .topic-content {
+        padding: 20px;
+    }
+
+    .topic-header h2 {
+        font-size: 1.5rem;
+    }
+}

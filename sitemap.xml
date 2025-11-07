@@ -14,6 +14,18 @@
         <xhtml:link rel="alternate" hreflang="de" href="https://www.drsezaierturk.com/" />
     </url>
 
+    <!-- Topics Page -->
+    <url>
+        <loc>https://www.drsezaierturk.com/topics.html</loc>
+        <lastmod>2025-01-02</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <xhtml:link rel="alternate" hreflang="tr" href="https://www.drsezaierturk.com/topics.html" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://www.drsezaierturk.com/topics.html" />
+        <xhtml:link rel="alternate" hreflang="ru" href="https://www.drsezaierturk.com/topics.html" />
+        <xhtml:link rel="alternate" hreflang="de" href="https://www.drsezaierturk.com/topics.html" />
+    </url>
+
     <!-- Gallery Page -->
     <url>
         <loc>https://www.drsezaierturk.com/gallery.html</loc>
