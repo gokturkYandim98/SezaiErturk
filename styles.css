@@ -1029,3 +1029,39 @@ section {
     margin-top: 3px;
     flex-shrink: 0;
 }
+
+/* Service Item Styles */
+.service-item {
+    background: #f8f9fa;
+    border-left: 4px solid #6BB5BC;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.service-item h4 {
+    color: #6BB5BC;
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin: 0 0 8px 0;
+}
+
+.service-definition {
+    color: #495057;
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin: 0 0 10px 0;
+    font-style: italic;
+}
+
+.service-details {
+    color: #6c757d;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin: 6px 0;
+}
+
+.service-details strong {
+    color: #495057;
+    font-weight: 600;
+}
