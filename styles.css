@@ -246,11 +246,21 @@ html {
     transition: all 0.3s ease;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
     border: 1px solid #e9ecef;
+    cursor: pointer;
 }
 
 .service-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+/* Service card link styling */
+a:has(.service-card) {
+    color: inherit;
+}
+
+a:has(.service-card):hover .service-card h3 {
+    color: #6BB5BC;
 }
 
 .service-icon {

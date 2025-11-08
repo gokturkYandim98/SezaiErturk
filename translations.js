@@ -30,18 +30,12 @@ const translations = {
 
         // Main Services
         services_title: "Hizmetler",
-        service1_title: "Kadın Hastalıkları Tedavisi",
-        service1_desc: "Jinekolojik sorunların tanı ve tedavisi, düzenli kontroller ve kapsamlı muayene hizmetleri.",
-        service2_title: "Normal Doğum ve Sezaryen",
-        service2_desc: "Deneyimli ekip ve anlaşmalı hastanelerde güvenli doğum hizmetleri sunuyoruz.",
-        service3_title: "Genital Estetik",
-        service3_desc: "Fraksiyonel lazer ile genital estetik işlemler, lokal veya genel anestezi seçenekleri.",
-        service4_title: "Gebelik Takibi",
-        service4_desc: "Kapsamlı gebelik kontrolü, ultrason muayeneleri ve tarama testleri.",
-        service5_title: "Jinekolojik Kanser Taraması",
-        service5_desc: "Erken teşhis için düzenli tarama programları ve biyopsi işlemleri.",
-        service6_title: "NST ve Ultrason",
-        service6_desc: "Fetüs takibi (NST), karın içi ve vajinal ultrason muayeneleri.",
+        service1_desc: "Vajinal ultrason, smear testi, endometrial biyopsi ve tümör belirteçleri ile kapsamlı muayene hizmetleri.",
+        service2_desc: "Normal ve riskli gebelik takibi, tarama testleri, NST, biofizik profil ve ultrason takibi.",
+        service3_desc: "Labioplasti, vajinal daraltma, vajinal rejuvanasyon, G noktası dolgusu ve genital PRP uygulamaları.",
+        service4_desc: "Yumurtlama takibi, ovulasyon indüksiyonu, aşılama (IUI) ve HSG hizmetleri.",
+        service5_desc: "Rahim ağzı yarası, genital siğil, vajinismus, PKOS, idrar kaçırma ve vajinal enfeksiyon tedavisi.",
+        service6_desc: "Spiral takılması (hormonlu/hormonsuz), tüp bağlama, doğum kontrol hapları ve danışmanlık hizmetleri.",
 
         // Detailed Services
         topics_title: "Teşhis ve Tedavi Hizmetleri",
@@ -138,18 +132,12 @@ const translations = {
 
         // Main Services
         services_title: "Services",
-        service1_title: "Gynecological Treatment",
-        service1_desc: "Diagnosis and treatment of gynecological problems, regular check-ups and comprehensive examination services.",
-        service2_title: "Natural Birth & Cesarean",
-        service2_desc: "We provide safe birth services with our experienced team at partner hospitals.",
-        service3_title: "Genital Aesthetics",
-        service3_desc: "Genital aesthetic procedures with fractional laser, local or general anesthesia options.",
-        service4_title: "Pregnancy Monitoring",
-        service4_desc: "Comprehensive pregnancy monitoring, ultrasound examinations and screening tests.",
-        service5_title: "Gynecological Cancer Screening",
-        service5_desc: "Regular screening programs and biopsy procedures for early diagnosis.",
-        service6_title: "NST & Ultrasound",
-        service6_desc: "Fetal monitoring (NST), abdominal and vaginal ultrasound examinations.",
+        service1_desc: "Vaginal ultrasound, smear test, endometrial biopsy and tumor markers with comprehensive examination services.",
+        service2_desc: "Normal and high-risk pregnancy monitoring, screening tests, NST, biophysical profile and ultrasound monitoring.",
+        service3_desc: "Labioplasty, vaginal tightening, vaginal rejuvenation, G-spot augmentation and genital PRP applications.",
+        service4_desc: "Ovulation monitoring, ovulation induction, insemination (IUI) and HSG services.",
+        service5_desc: "Cervical erosion, genital warts, vaginismus, PCOS, urinary incontinence and vaginal infection treatment.",
+        service6_desc: "IUD insertion (hormonal/non-hormonal), tubal ligation, birth control pills and counseling services.",
 
         // Detailed Services
         topics_title: "Diagnostic and Treatment Services",
@@ -246,18 +234,12 @@ const translations = {
 
         // Main Services
         services_title: "Услуги",
-        service1_title: "Гинекологическое лечение",
-        service1_desc: "Диагностика и лечение гинекологических проблем, регулярные осмотры и комплексное обследование.",
-        service2_title: "Естественные роды и Кесарево сечение",
-        service2_desc: "Мы предоставляем безопасные услуги по родовспоможению с нашей опытной командой в партнерских больницах.",
-        service3_title: "Генитальная эстетика",
-        service3_desc: "Процедуры генитальной эстетики с фракционным лазером, варианты местной или общей анестезии.",
-        service4_title: "Мониторинг беременности",
-        service4_desc: "Комплексный мониторинг беременности, ультразвуковые исследования и скрининговые тесты.",
-        service5_title: "Скрининг гинекологического рака",
-        service5_desc: "Регулярные программы скрининга и биопсии для ранней диагностики.",
-        service6_title: "НСТ и УЗИ",
-        service6_desc: "Мониторинг плода (НСТ), абдоминальное и вагинальное ультразвуковое исследование.",
+        service1_desc: "Вагинальное УЗИ, мазок, биопсия эндометрия и онкомаркеры с комплексным обследованием.",
+        service2_desc: "Мониторинг нормальной и высокорискованной беременности, скрининговые тесты, НСТ, биофизический профиль.",
+        service3_desc: "Лабиопластика, сужение влагалища, вагинальное омоложение, увеличение G-точки и генитальная PRP.",
+        service4_desc: "Мониторинг овуляции, индукция овуляции, искусственная инсеминация (ВМИ) и ГСГ.",
+        service5_desc: "Эрозия шейки матки, генитальные бородавки, вагинизм, СПКЯ, недержание мочи и лечение вагинальных инфекций.",
+        service6_desc: "Установка ВМС (гормональная/негормональная), перевязка труб, противозачаточные таблетки и консультации.",
 
         // Detailed Services
         topics_title: "Диагностические и лечебные услуги",
@@ -354,18 +336,12 @@ const translations = {
 
         // Main Services
         services_title: "Dienstleistungen",
-        service1_title: "Gynäkologische Behandlung",
-        service1_desc: "Diagnose und Behandlung gynäkologischer Probleme, regelmäßige Untersuchungen und umfassende Untersuchungsdienste.",
-        service2_title: "Natürliche Geburt & Kaiserschnitt",
-        service2_desc: "Wir bieten sichere Geburtsdienste mit unserem erfahrenen Team in Partnerkrankenhäusern.",
-        service3_title: "Genitale Ästhetik",
-        service3_desc: "Genitale ästhetische Eingriffe mit fraktioniertem Laser, Optionen für lokale oder allgemeine Anästhesie.",
-        service4_title: "Schwangerschaftsüberwachung",
-        service4_desc: "Umfassende Schwangerschaftsüberwachung, Ultraschalluntersuchungen und Screening-Tests.",
-        service5_title: "Gynäkologisches Krebs-Screening",
-        service5_desc: "Regelmäßige Screening-Programme und Biopsie-Verfahren zur Früherkennung.",
-        service6_title: "NST & Ultraschall",
-        service6_desc: "Fetale Überwachung (NST), abdominale und vaginale Ultraschalluntersuchungen.",
+        service1_desc: "Vaginaler Ultraschall, Abstrich, Endometriumbiopsie und Tumormarker mit umfassenden Untersuchungsdiensten.",
+        service2_desc: "Normal- und Hochrisiko-Schwangerschaftsüberwachung, Screening-Tests, NST, biophysikalisches Profil und Ultraschall.",
+        service3_desc: "Labioplastik, Vaginalstraffung, Vaginalverjüngung, G-Punkt-Vergrößerung und genitale PRP-Anwendungen.",
+        service4_desc: "Ovulationsüberwachung, Ovulationsinduktion, Insemination (IUI) und HSG-Dienste.",
+        service5_desc: "Gebärmutterhalserosion, Genitalwarzen, Vaginismus, PCOS, Harninkontinenz und Behandlung vaginaler Infektionen.",
+        service6_desc: "IUP-Einlage (hormonell/nicht-hormonell), Tubenligatur, Antibabypillen und Beratungsdienste.",
 
         // Detailed Services
         topics_title: "Diagnose- und Behandlungsdienste",
