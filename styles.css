@@ -616,7 +616,7 @@ a:has(.service-card):hover .service-card h3 {
 
 /* Contact Section */
 #contact {
-    background: linear-gradient(135deg, var(--primary-color) 0%, #0b5ed7 100%);
+    background-color: #6BB5BC !important;
 }
 
 .contact-info p {
