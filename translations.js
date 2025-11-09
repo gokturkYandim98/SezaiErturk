@@ -91,12 +91,14 @@ const translations = {
         topic_item4: "Doğum Kontrolü",
         topic_item5: "Tedavi Hizmetleri",
         topic_item6: "Estetik Jinekoloji",
+        topic_item7: "Testler",
         topic1_title: "Gebelik ve Doğum Hizmetleri",
         topic2_title: "Jinekolojik Muayene ve Tetkikler",
         topic3_title: "Kısırlık Tedavileri",
         topic4_title: "Doğum Kontrolü",
         topic5_title: "Tedavi Hizmetleri",
         topic6_title: "Estetik Jinekoloji",
+        topic7_title: "Testler",
 
         // Footer
         footer_text: "Op. Dr. Sezai Ertürk\nKadın Hastalıkları ve Doğum Uzmanı\nTüm hakları saklıdır\n© 2025"
@@ -193,12 +195,14 @@ const translations = {
         topic_item4: "Birth Control",
         topic_item5: "Treatment Services",
         topic_item6: "Aesthetic Gynecology",
+        topic_item7: "Tests",
         topic1_title: "Pregnancy and Delivery Services",
         topic2_title: "Gynecological Examination and Tests",
         topic3_title: "Infertility Treatments",
         topic4_title: "Birth Control",
         topic5_title: "Treatment Services",
         topic6_title: "Aesthetic Gynecology",
+        topic7_title: "Tests",
 
         // Footer
         footer_text: "Op. Dr. Sezai Ertürk\nGynecologist & Obstetrician\nAll rights reserved\n© 2025"
@@ -295,12 +299,14 @@ const translations = {
         topic_item4: "Контроль рождаемости",
         topic_item5: "Лечебные услуги",
         topic_item6: "Эстетическая гинекология",
+        topic_item7: "Тесты",
         topic1_title: "Услуги по беременности и родам",
         topic2_title: "Гинекологический осмотр и анализы",
         topic3_title: "Лечение бесплодия",
         topic4_title: "Контроль рождаемости",
         topic5_title: "Лечебные услуги",
         topic6_title: "Эстетическая гинекология",
+        topic7_title: "Тесты",
 
         // Footer
         footer_text: "Оп. Др. Сезай Эртюрк\nГинеколог и Акушер\nВсе права защищены\n© 2025"
@@ -397,12 +403,14 @@ const translations = {
         topic_item4: "Geburtenkontrolle",
         topic_item5: "Behandlungsdienste",
         topic_item6: "Ästhetische Gynäkologie",
+        topic_item7: "Tests",
         topic1_title: "Schwangerschafts- und Geburtsdienste",
         topic2_title: "Gynäkologische Untersuchung und Tests",
         topic3_title: "Unfruchtbarkeitsbehandlungen",
         topic4_title: "Geburtenkontrolle",
         topic5_title: "Behandlungsdienste",
         topic6_title: "Ästhetische Gynäkologie",
+        topic7_title: "Tests",
 
         // Footer
         footer_text: "Op. Dr. Sezai Ertürk\nFrauenarzt und Geburtshelfer\nAlle Rechte vorbehalten\n© 2025"
