@@ -71,7 +71,11 @@ const translations = {
         // Contact
         contact_title: "İletişim",
         contact_desc: "Randevu almak veya bilgi almak için bizimle iletişime geçebilirsiniz.",
-        contact_location: "Şekerhane Mah. Şevket Tokuş Cad.\nGörgülü Apt.No: 8/4\nAlanya/ANTALYA\nKlinik Tel. 0 537 440 17 27",
+        contact_address_title: "Adres",
+        contact_phone_title: "Telefon",
+        contact_call: "Ara",
+        contact_social_title: "Sosyal Medya",
+        contact_location: "Şekerhane Mah. Şevket Tokuş Cad.\nGörgülü Apt.No: 8/4\nAlanya/ANTALYA",
 
         // Gallery Page
         gallery_page_title: "Klinik Galeri - Op. Dr. Sezai Ertürk",
@@ -175,7 +179,11 @@ const translations = {
         // Contact
         contact_title: "Contact",
         contact_desc: "You can contact us for appointments or information.",
-        contact_location: "Şekerhane Mah. Şevket Tokuş Cad.\nGörgülü Apt.No: 8/4\nAlanya/ANTALYA\nKlinik Tel. 0 537 440 17 27",
+        contact_address_title: "Address",
+        contact_phone_title: "Phone",
+        contact_call: "Call",
+        contact_social_title: "Social Media",
+        contact_location: "Şekerhane Mah. Şevket Tokuş Cad.\nGörgülü Apt.No: 8/4\nAlanya/ANTALYA",
 
         // Gallery Page
         gallery_page_title: "Clinic Gallery - Op. Dr. Sezai Ertürk",
@@ -279,7 +287,11 @@ const translations = {
         // Contact
         contact_title: "Контакты",
         contact_desc: "Вы можете связаться с нами для записи на прием или получения информации.",
-        contact_location: "Şekerhane Mah. Şevket Tokuş Cad.\nGörgülü Apt.No: 8/4\nAlanya/ANTALYA\nKlinik Tel. 0 537 440 17 27",
+        contact_address_title: "Адрес",
+        contact_phone_title: "Телефон",
+        contact_call: "Позвонить",
+        contact_social_title: "Социальные сети",
+        contact_location: "Şekerhane Mah. Şevket Tokuş Cad.\nGörgülü Apt.No: 8/4\nAlanya/ANTALYA",
 
         // Gallery Page
         gallery_page_title: "Галерея клиники - Оп. Др. Сезай Эртюрк",
@@ -383,7 +395,11 @@ const translations = {
         // Contact
         contact_title: "Kontakt",
         contact_desc: "Sie können uns für Termine oder Informationen kontaktieren.",
-        contact_location: "Şekerhane Mah. Şevket Tokuş Cad.\nGörgülü Apt.No: 8/4\nAlanya/ANTALYA\nKlinik Tel. 0 537 440 17 27",
+        contact_address_title: "Adresse",
+        contact_phone_title: "Telefon",
+        contact_call: "Anrufen",
+        contact_social_title: "Soziale Medien",
+        contact_location: "Şekerhane Mah. Şevket Tokuş Cad.\nGörgülü Apt.No: 8/4\nAlanya/ANTALYA",
 
         // Gallery Page
         gallery_page_title: "Klinikgalerie - Op. Dr. Sezai Ertürk",
