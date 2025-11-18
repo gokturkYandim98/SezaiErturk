@@ -11,8 +11,8 @@ const translations = {
         nav_contact: "İletişim",
 
         // Hero Section
-        hero_subtitle: "Kadın Hastalıkları ve Doğum Uzmanı",
-        hero_description: "Alanya'da güvenilir ve profesyonel kadın sağlığı hizmetleri. Normal doğum, sezaryen, gebelik takibi, jinekolojik estetik ve kadın hastalıkları tedavisi.",
+        hero_subtitle: "Kadın Hastalıkları ve Doğum Doktoru",
+        hero_description: "Alanya'da kadın hastalıkları ve doğum hizmetleri. Normal doğum, sezaryen, gebelik takibi, jinekolojik estetik ve kadın hastalıkları tedavisi.",
         btn_appointment: "Randevu Al",
         btn_more_info: "Daha Fazla Bilgi",
         russian_translator: "Klinikte Rusça tercüman mevcuttur",
@@ -105,7 +105,7 @@ const translations = {
         topic7_title: "Testler",
 
         // Footer
-        footer_text: "Op. Dr. Sezai Ertürk\nKadın Hastalıkları ve Doğum Uzmanı\nTüm hakları saklıdır\n© 2025"
+        footer_text: "Op. Dr. Sezai Ertürk\nKadın Hastalıkları ve Doğum Doktoru\nTüm hakları saklıdır\n© 2025"
     },
 
     en: {
@@ -120,7 +120,7 @@ const translations = {
 
         // Hero Section
         hero_subtitle: "Gynecologist & Obstetrician",
-        hero_description: "Reliable and professional women's health services in Alanya. Natural birth, cesarean section, pregnancy monitoring, genital aesthetics and gynecological treatments.",
+        hero_description: "Women's health and obstetrics services in Alanya. Natural birth, cesarean section, pregnancy monitoring, genital aesthetics and gynecological treatments.",
         btn_appointment: "Book Appointment",
         btn_more_info: "More Information",
         russian_translator: "Russian translator available at the clinic",
@@ -228,7 +228,7 @@ const translations = {
 
         // Hero Section
         hero_subtitle: "Гинеколог и Акушер",
-        hero_description: "Надежные и профессиональные услуги по охране женского здоровья в Алании. Естественные роды, кесарево сечение, мониторинг беременности, генитальная эстетика и гинекологическое лечение.",
+        hero_description: "Услуги по охране женского здоровья и акушерству в Алании. Естественные роды, кесарево сечение, мониторинг беременности, генитальная эстетика и гинекологическое лечение.",
         btn_appointment: "Записаться на прием",
         btn_more_info: "Подробнее",
         russian_translator: "В клинике доступен русский переводчик",
@@ -336,7 +336,7 @@ const translations = {
 
         // Hero Section
         hero_subtitle: "Frauenarzt und Geburtshelfer",
-        hero_description: "Zuverlässige und professionelle Frauengesundheitsdienste in Alanya. Natürliche Geburt, Kaiserschnitt, Schwangerschaftsüberwachung, genitale Ästhetik und gynäkologische Behandlungen.",
+        hero_description: "Frauengesundheitsdienste und Geburtshilfe in Alanya. Natürliche Geburt, Kaiserschnitt, Schwangerschaftsüberwachung, genitale Ästhetik und gynäkologische Behandlungen.",
         btn_appointment: "Termin vereinbaren",
         btn_more_info: "Mehr Informationen",
         russian_translator: "Russischer Übersetzer in der Klinik verfügbar",
