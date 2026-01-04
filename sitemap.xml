@@ -4,38 +4,38 @@
 
     <!-- Homepage -->
     <url>
-        <loc>https://www.drsezaierturk.com/</loc>
-        <lastmod>2025-12-01</lastmod>
+        <loc>https://jinekolok-alanya.com/</loc>
+        <lastmod>2025-01-04</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://www.drsezaierturk.com/" />
-        <xhtml:link rel="alternate" hreflang="en" href="https://www.drsezaierturk.com/" />
-        <xhtml:link rel="alternate" hreflang="ru" href="https://www.drsezaierturk.com/" />
-        <xhtml:link rel="alternate" hreflang="de" href="https://www.drsezaierturk.com/" />
+        <xhtml:link rel="alternate" hreflang="tr" href="https://jinekolok-alanya.com/" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://jinekolok-alanya.com/" />
+        <xhtml:link rel="alternate" hreflang="ru" href="https://jinekolok-alanya.com/" />
+        <xhtml:link rel="alternate" hreflang="de" href="https://jinekolok-alanya.com/" />
     </url>
 
     <!-- Services/Topics Page -->
     <url>
-        <loc>https://www.drsezaierturk.com/topics.html</loc>
-        <lastmod>2025-12-01</lastmod>
+        <loc>https://jinekolok-alanya.com/topics.html</loc>
+        <lastmod>2025-01-04</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://www.drsezaierturk.com/topics.html" />
-        <xhtml:link rel="alternate" hreflang="en" href="https://www.drsezaierturk.com/topics.html" />
-        <xhtml:link rel="alternate" hreflang="ru" href="https://www.drsezaierturk.com/topics.html" />
-        <xhtml:link rel="alternate" hreflang="de" href="https://www.drsezaierturk.com/topics.html" />
+        <xhtml:link rel="alternate" hreflang="tr" href="https://jinekolok-alanya.com/topics.html" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://jinekolok-alanya.com/topics.html" />
+        <xhtml:link rel="alternate" hreflang="ru" href="https://jinekolok-alanya.com/topics.html" />
+        <xhtml:link rel="alternate" hreflang="de" href="https://jinekolok-alanya.com/topics.html" />
     </url>
 
     <!-- Gallery/Clinic Page -->
     <url>
-        <loc>https://www.drsezaierturk.com/gallery.html</loc>
-        <lastmod>2025-12-01</lastmod>
+        <loc>https://jinekolok-alanya.com/gallery.html</loc>
+        <lastmod>2025-01-04</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.7</priority>
-        <xhtml:link rel="alternate" hreflang="tr" href="https://www.drsezaierturk.com/gallery.html" />
-        <xhtml:link rel="alternate" hreflang="en" href="https://www.drsezaierturk.com/gallery.html" />
-        <xhtml:link rel="alternate" hreflang="ru" href="https://www.drsezaierturk.com/gallery.html" />
-        <xhtml:link rel="alternate" hreflang="de" href="https://www.drsezaierturk.com/gallery.html" />
+        <xhtml:link rel="alternate" hreflang="tr" href="https://jinekolok-alanya.com/gallery.html" />
+        <xhtml:link rel="alternate" hreflang="en" href="https://jinekolok-alanya.com/gallery.html" />
+        <xhtml:link rel="alternate" hreflang="ru" href="https://jinekolok-alanya.com/gallery.html" />
+        <xhtml:link rel="alternate" hreflang="de" href="https://jinekolok-alanya.com/gallery.html" />
     </url>
 
 </urlset>
